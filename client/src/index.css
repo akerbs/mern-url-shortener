@@ -1,0 +1,95 @@
+@import "~materialize-css/dist/css/materialize.min.css";
+
+:root {
+  box-sizing: border-box;
+  font-size: calc(1vw + 0.3em);
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Loader */
+div.loader {
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+}
+
+/* Navbar */
+div.navbar {
+  padding: 0 2rem;
+  position: sticky;
+  width: 100%;
+}
+
+div.navbar > ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+  display: flex;
+  justify-content: flex-end;
+  text-align: start;
+}
+
+div.navbar > ul li {
+  position: relative;
+}
+
+/* AuthPage */
+
+div.auth-page > h2 {
+  text-align: center;
+}
+
+button.btn-enter {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+button.btn-registration {
+  margin-bottom: 10px;
+}
+
+input.yellow-input {
+  border-bottom: 1px solid #fff !important;
+  box-shadow: 0 1px 0 0 #fff !important;
+}
+
+input.yellow-input + label {
+  color: #ffffff !important;
+}
+
+input.yellow-input:focus + label {
+  color: #ffeb3b !important;
+}
+
+input.yellow-input:focus {
+  border-bottom: 1px solid #ffeb3b !important;
+  box-shadow: 0 1px 0 0 #ffeb3b !important;
+}
+
+@media only screen and (min-width: 555px) {
+  div.auth-page {
+    width: 50%;
+    zoom: 0.9;
+  }
+
+  div.auth-page > h2 {
+    zoom: 0.7;
+  }
+}
+
+/* CreatePage */
+#create-page {
+  padding-top: 7rem;
+}
+
+#create-page input {
+  border-bottom: 1px solid #1e88e5 !important;
+  box-shadow: 0 0 0 0 #1e88e5 !important;
+}
+#create-page input + label {
+  color: #ffffff !important;
+}

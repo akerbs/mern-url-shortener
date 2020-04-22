@@ -1,0 +1,36 @@
+{
+  "name": "mern_url_shortener",
+  "version": "1.0.0",
+  "description": "Mern stack",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "server": "nodemon app.js",
+    "client": "npm run start --prefix client",
+    "client:install": "npm install --prefix client",
+    "client:build": "npm run build --prefix client",
+    "dev": "run-p server client",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm run client:install && npm run client:build"
+  },
+  "keywords": [
+    "mern",
+    "react"
+  ],
+  "author": "Anatol Kerbs <anker2702@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.1",
+    "express": "^4.17.1",
+    "express-validator": "^6.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.9",
+    "shortid": "^2.2.15",
+    "whatwg-fetch": "^3.0.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "nodemon": "^2.0.3",
+    "npm-run-all": "^4.1.5"
+  }
+}
