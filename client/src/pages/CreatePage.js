@@ -64,7 +64,7 @@ export const CreatePage = () => {
         <label htmlFor="link">Enter a link</label>
       </div>
       <div className="col s8 offset-s2 ">
-        <button className="btn blue darken-1" onClick={clickHandler}>
+        <button className="btn blue-grey darken-2" onClick={clickHandler}>
           Enter
         </button>
       </div>

@@ -14,7 +14,7 @@ export const Navbar = () => {
 
   return (
     <nav>
-      <div class="nav-wrapper blue darken-1 navbar">
+      <div class="nav-wrapper blue-grey darken-2 navbar">
         <span class="brand-logo left">URL Shortener</span>
         <ul>
           <li>
