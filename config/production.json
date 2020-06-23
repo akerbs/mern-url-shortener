@@ -1,6 +1,6 @@
 {
   "jwtSecret": "anker test secret mern",
-  "mongoUri": "mongodb+srv://anatol:!2sEYdVzYgzNZb2@cluster0-8vezp.azure.mongodb.net/mern1?retryWrites=true&w=majority",
+  "mongoUri": "mongodb+srv://Anatol:!2sEYdVzYgzNZb2@cluster0-vkpuu.mongodb.net/db_url_shortener?retryWrites=true&w=majority",
   "mongoDbName": "mern1",
   "baseUrl": "https://mern-url-shortener-anker.herokuapp.com"
 }
